@@ -1,0 +1,683 @@
+@font-face {
+    font-family: monorope;
+    src: url(./fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: arabic;
+    src: url(./fonts/IBMPlexSansArabic-SemiBold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color:rgb(43, 57, 70) ;
+    height: 77px;
+    
+    
+}
+
+.menu1{
+    display:flex ;
+    padding-left: 93px;
+    padding-top: 30px;
+    position: absolute;
+    color: rgb(126, 124, 122) ;
+}
+
+.menu1 h3{
+    color: white;
+    font-family: monorope;
+}
+
+
+.image1{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+.menu2{
+    padding-left: 316px;
+    padding-top: 33px;
+    position: absolute
+}    
+
+.menu2 h3{
+    display: inline;
+    margin-left: 30px;   
+}
+.menu2 a{
+    text-decoration: none;
+    color: rgb(126, 124, 122);
+    font-family: monorope;
+}
+.menu2 a:hover{
+    color: rgb(245, 228, 198);
+}
+.globe{
+    width: 20px;
+    height: 20px;
+}
+
+.in{
+    width: 20px;
+    height: 20px;
+}
+.menupic{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.menu3{
+    padding-left: 1110px;
+    padding-top: 30px;
+}
+
+.menu3 img{
+    margin-left: 20px;
+}
+
+.main{
+    background-color:rgb(43, 57, 70) ;
+    height: 480px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.main1{
+    padding-left: 93px;
+    padding-top: 40px;
+    position: absolute;
+    
+    
+    
+}
+
+#im{
+    font-size: 80px;
+    font-weight: 2px;
+    font-family: monorope ;
+    color:rgb(126, 124, 122);
+   
+}
+.main1 h1{
+    font-size: 80px;
+    font-weight: 900px;
+    color: white;
+    font-family: arabic;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.main1 p{
+    color: rgb(160, 156, 156);
+}
+.box{
+    width: 260px;
+    height: 5px;
+    background-color: gold;
+    
+}
+#para{
+    overflow-wrap: break-word ;
+    color:white;
+    font-size: 18px;
+    font-family: monorope;
+   
+}
+.box2{
+    width: 450px;
+    height: 450px;
+    background-color: rgba(29, 43, 56 ,0.5);
+    border-radius: 500px;
+    margin-left: 400px;
+    margin-top: -377px;
+    position: absolute;
+    
+    
+}
+.harispic{
+    width: 400px;
+    height: 400px;
+    padding-top: 31px;
+    position: relative;
+    z-index: 3;
+    
+    
+   
+}
+
+.box3{
+    padding-left: 880px;
+    padding-top: 63px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    font-family: monorope;
+}
+
+.bax{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    position: absolute;
+    
+}
+
+.bax2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    position: absolute;
+    margin-left: 45px;
+
+}
+.bax3{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    position: absolute;
+    margin-left: 90px;
+}
+
+.bax4{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    position: absolute;
+    margin-left: 135px;
+}
+.facepic{
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+    
+
+.twitterpic{
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.instapic{
+    width: 17px;
+    height: 17px;
+    padding-top: 8px;
+    padding-left: 7px;
+}
+    
+.printest{
+    width: 17px;
+    height: 17px;
+    padding-top: 8px;
+    padding-left: 7px;
+    
+}
+
+.box3 a{
+    text-decoration: none;
+    color: gold;
+}
+
+
+
+.scene1{
+    background-color: rgb(56, 67, 78);
+    height: 100px;
+    width: 84%;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 91px;
+    
+
+}
+
+.jupyter{
+    background-color:rgb(39, 52, 63) ;;
+    height: 754px;
+}
+
+.scene2{
+    height: 50px;
+    width: 180px;
+    margin-top: 23px;
+    margin-left: 35px;
+    background-color: rgb(29, 43, 56);
+}
+
+.scene3{
+    height: 50px;
+    width: 180px;
+    margin-top: -50px;
+    margin-left: 333px;
+    background-color: rgb(29, 43, 56);
+    
+
+}
+.metapic{
+    width: 120px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.google{
+    width: 135px;
+    height: 37px;
+    margin-left: 20px;
+    margin-top: 10px;}
+
+.secne4{
+    height: 50px;
+    width: 180px;
+    margin-top: -50px;
+    margin-left: 626px;
+    background-color:rgb(29, 43, 56);
+    position: absolute;
+}   
+.linkedpic{
+    width: 135px;
+    height: 37px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}  
+
+.scene5{
+    height: 50px;
+    width: 180px;
+    margin-top: -50px;
+    margin-left: 920px;
+    background-color:rgb(29, 43, 56);
+    position: absolute;
+} 
+
+.slack{
+    width: 135px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+
+
+
+.jupyter1{
+    width: 28%;
+    padding-top: 100px;
+    padding-left: 93px;
+
+}
+
+#need{
+    font-size: 40px;
+    color: white;
+    font-family:monorope ;
+    font-weight: 500;
+    word-spacing: 10px;
+    text-transform: capitalize;
+}
+
+#para2{
+    color: rgb(160, 156, 156);
+    font-size: large;
+    line-height: 25px;
+}
+
+.orient1{
+    padding-top: 40px;
+    line-height: 17px;
+    position: absolute;
+}
+
+.orient1 h2{
+    color:gold;
+    font-family: monorope;
+}
+
+.orient1 p{
+    color: rgb(160, 156, 156);
+    font-family: monorope;
+    font-weight: 600;
+
+}
+
+.orient2{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 225px;
+    
+}
+.orient2 h2{
+    color:gold;
+    font-family: monorope;
+
+}
+
+.orient2 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+
+}
+
+.orient3{
+    padding-top: 130px;
+    position: absolute;
+    
+    
+}
+.orient3 h2{
+    color:gold;
+    font-family: monorope;
+
+}
+
+.orient3 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+
+}
+
+.orient4{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 225px;
+    
+}
+.orient4 h2{
+    color:gold;
+    font-family: monorope;
+
+}
+
+.orient4 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+
+}
+
+.orient4{
+    padding-top: 130px;
+    
+    
+}
+
+.jupyter2{
+    margin-left: 53%;
+    margin-top: -250px;
+}
+
+.developpic{
+    width:130px;
+    height: 100px;
+    padding-top: 50px;
+    
+}
+
+.space1{
+    position: absolute;
+    display: flex;
+}
+
+.space1 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 6px;
+    padding-top: 84px;
+}
+
+.space1 h1{
+    padding-left: 207px;
+    padding-top: 79px;
+    color: gold;
+    font-size: x-large;
+}
+
+.z1{
+    width:510px;
+    height: 1px;
+    background-color: rgb(160, 156, 156);
+    position: absolute;
+    margin-top: 170px;
+}
+
+.space2{
+    position: absolute;
+    display: flex;
+}
+
+.frontendpic{
+    width: 130px;
+    height: 100px;
+    padding-top: 192px;
+}
+
+.space2 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 6px;
+    padding-top: 231px;
+}
+
+.space2 h1{
+    padding-left: 105px;
+    padding-top: 228px;
+    color: gold;
+    font-size: x-large;
+}
+
+.z2{
+    width:510px;
+    height: 1px;
+    background-color: rgb(160, 156, 156);
+    position: absolute;
+    margin-top: 310px;
+}
+
+.apppic{
+    width:130px;
+    height: 100px;
+    padding-top: 330px;
+}
+
+.space3{
+    position: absolute;
+    display: flex;
+}
+
+
+.space3 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 6px;
+    padding-top: 369px;
+}
+
+.space3 h1{
+    padding-left: 101px;
+    padding-top: 367px;
+    color: gold;
+    font-size: x-large;
+}
+
+.z3{
+    width:510px;
+    height: 1px;
+    background-color: rgb(160, 156, 156);
+    position: absolute;
+    margin-top: 456px;
+
+}
+
+.oval{
+    background-color: rgb(43, 57, 70) ;
+    height: 59px;
+    width: 100%;
+}
+
+.oval1{
+    
+    height: 241px;
+    width: 357px;
+    background-color: rgb(56, 67, 78);
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 93px;
+
+}
+
+.spread1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    margin:25px;
+    position: absolute;
+}
+
+.oval1 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 25px;
+    padding-top: 66px;
+
+}
+
+.oval1 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+    margin-left: 25px;
+
+}
+
+.designpic{
+    width: 29px;
+    height: 27px;
+    margin-top: 2px;
+}
+
+.oval2{
+    height: 241px;
+    width: 369px;
+    background-color: rgb(56, 67, 78);
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 469px;
+}
+
+.oval3{
+
+    height: 241px;
+    width: 369px;
+    background-color: rgb(56, 67, 78);
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 856px;
+
+}
+
+
+.oval2 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 25px;
+    padding-top: 66px;
+
+}
+
+.oval2 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+    margin-left: 25px;
+
+}
+.spread2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    margin:25px;
+    position: absolute;
+}
+.computerpic{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 3px;
+
+}
+
+.oval3 h3{
+    font-size: 21px;
+    color: white;
+    font-family: monorope;
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-left: 25px;
+    padding-top: 66px;
+
+}
+
+.oval3 p{
+    color: rgb(160, 156, 156);
+    padding-top: 8px;
+    font-family: monorope;
+    font-weight: 600;
+    margin-left: 25px;
+
+}
+.spread3{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(63, 75, 85);
+    margin:25px;
+    position: absolute;
+}
+.responsepic{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 3px;
+
+}
